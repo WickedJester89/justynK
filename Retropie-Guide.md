@@ -2,19 +2,19 @@
 
 ## Ports Directory
 
-1. **Create** a folder called `Diablo`.
+1. **Create** a folder called `diablo`.
 
 2. **Copy** your `diabdat.mpq` into it **(make sure to rename it lowercase)**.
 
 3. **Download** the latest [release](https://github.com/diasurgical/devilutionX/releases) of `linux-armhf.7z`.
 
-4. **Extract** `devilutionx` and `CharisSILB.ttf` into the `Diablo folder`.
+4. **Extract** `devilutionx` and `CharisSILB.ttf` into the `diablo folder`.
 
-5. **Create** another folder inside the `Diablo folder` called `gamedata` (we'll use this later).
+5. **Create** another folder inside the `diablo folder` called `gamedata` (we'll use this later).
 
-6. **Open** windows explorer and navigate to the ports directory on your pi `\\retropie\roms\ports\`.
+6. **Open** Windows Explorer and navigate to the ports directory on your pi `\\retropie\roms\ports\`.
 
-7. **Copy** the `Diablo` folder to this directory.
+7. **Copy** the `diablo` folder to this directory.
 
 ![Capture](https://user-images.githubusercontent.com/17083706/110678286-1dd43c00-81a4-11eb-9944-d120ba02da9b.PNG)
 
@@ -34,7 +34,7 @@
 
 ## Configs Directory
 
-1. **Create** a second folder called `Diablo` (or delete everything inside the first one on the Windows machine).
+1. **Create** a second folder called `diablo` (or delete everything inside the first one on the Windows machine).
 
 2. **Create** a file inside it called `emulators.cfg`
 
@@ -46,7 +46,7 @@
 
 4. **Open** Windows Explorer and navigate to the ports config directory on your pi `\\retropie\configs\ports`.
 
-5. **Copy** the `Diablo` folder to this directory.
+5. **Copy** the `diablo` folder to this directory.
 
 ![image](https://user-images.githubusercontent.com/17083706/110678534-6855b880-81a4-11eb-8ca8-1b0b2947ab1b.png)
 
