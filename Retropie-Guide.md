@@ -1,4 +1,4 @@
-# Setting up devilutionX using a Windows machine networked to your Pi
+# Setting up devilutionX using a Windows machine networked to your Pie
 
 ## Ports Directory
 
@@ -12,7 +12,7 @@
 
 5. **Create** another folder inside the `diablo folder` called `gamedata` (we'll use this later).
 
-6. **Open** Windows Explorer and navigate to the ports directory on your pi `\\retropie\roms\ports\`.
+6. **Open** Windows Explorer and navigate to the ports directory on your pie `\\retropie\roms\ports\`.
 
 7. **Copy** the `diablo` folder to this directory.
 
@@ -44,7 +44,7 @@
 
 `default = "diablo"`
 
-4. **Open** Windows Explorer and navigate to the ports config directory on your pi `\\retropie\configs\ports`.
+4. **Open** Windows Explorer and navigate to the ports config directory on your pie `\\retropie\configs\ports`.
 
 5. **Copy** the `diablo` folder to this directory.
 
@@ -52,8 +52,9 @@
 
 ***
 
-## Execution Rights
-1. **Open** the Retropie `configuration menu` on your pi.
+## Execution Rights and Dependencies
+
+1. **Open** the Retropie `configuration menu` on your pie.
 
 2. **Open** the `FileManager`.
 
@@ -61,35 +62,41 @@
 
 4. **Type** `chmod u+x devilutionx` to grant execution rights. 
 
+5. **Hit** `Ctrl+o` on your keyboard to bring up the full terminal.
+
+6. **Type** `apt install libsdl2-mixer` and install.
+
+7. **Type** `apt install libsdl2-ttf` and install.
+
+8. **Type** `exit` to exit terminal then `F10` to exit the file mananger.
 
 ***
 
 ## Diablo.ini
 1. **Select** Diablo in the Ports menu to run it for the first time (generates default `.ini`).
 
-2. **Open** Windows Explorer and navigate to the `gamedata` folder on your pi `\\retropie\roms\ports\diablo\gamedata`.
+2. **Open** Windows Explorer and navigate to the `gamedata` folder on your pie `\\retropie\roms\ports\diablo\gamedata`.
 
 3. **Open** `diablo.ini` to make any changes.
 
 (Your character saves will be stored here as well)
 ***
 
-## Troubleshooting:
-If the launch menu comes up but the game does not run, make sure you have the SDL dependencies installed:
+## Troubleshooting
 
-`apt install libsdl2`
+If you do not have a ports menu:
 
-`apt install libsdl2-mixer`
+1. **Open** the Retropie `configuration menu` on your pie.
 
-`apt install libsdl2-ttf`
+2.  **Select** `Retropie Setup`
 
-If sound effects are sometimes distorted, check if you have a -dev install of mixer and uninstall it:
+3. **Select** `Manage Packages -> Manage Optional Packages -> Kodi -> Install`
 
-`apt remove libsdl2-mixer-dev`
+4. **Restart** the emulationstation.
 
 If your pi has a black boarder around the screen:
 
-1. **Open** the Retropie `configuration menu` on your pi.
+1. **Open** the Retropie `configuration menu` on your pie.
 
 2. **Select** `Raspi-Config`
 
