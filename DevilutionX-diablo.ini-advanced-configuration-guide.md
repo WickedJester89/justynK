@@ -23,18 +23,22 @@ Setting a a value outside the allowed parameters will cause the game to ignore t
 
 ### Adjust sound volume.
 0= sound disabled, Max value is 100;
+
 `Sound Volume=0`
 
 ### Adjust music volume.
 0= sound disabled, Max value is 100;
+
 `Music Volume=0`
 
 ### Enable walking sound.
 1=enabled, 0=disabled;
+
 `Walking Sound=1`
 
 ### Enable Auto Equip sound.
 1=enabled, 0=disabled;
+
 `Auto Equip Sound=0`
 
 
@@ -64,9 +68,9 @@ enabled 1=enabled, 0=disabled;
 `Fit to Screen=1`
 
 ### Enables filtering for better quality image.
-1=bicubic, 2=bilinear, 0=disabled
+1=bicubic, 2=bilinear, 0=nearest neighbor 
 
-Scaling Quality=0
+`Scaling Quality=0`
 
 ### Scales the image using whole number pixel ratio.
 enabled 1=enabled, 0=disabled;
@@ -76,9 +80,10 @@ enabled 1=enabled, 0=disabled;
 ### Forces waiting for Vertical Sync. Prevents tearing effect when drawing a frame.
 1=enabled, 0=disabled;
 
-Vertical Sync=1
+`Vertical Sync=1`
 
-### Enables a better transparency mode for in game text menus and boxes.
+### Enables a better transparency mode.
+New blended transparency affects the transparency on walls, game text menus and boxes.
 If disabled will default to old checkerboard transparency.
 
 1=enabled, 0=disabled;
