@@ -128,7 +128,7 @@ Default value=20, Max value=100;
 
 `Theo Quest=0`
 
-### Hellfire specific. Enable Jersey's Jersey quest.[Hellfire specific]
+### Enable Jersey's Jersey quest.[Hellfire specific]
 Lester the farmer is replaced by the Complete Nut:
 
 1=enabled, 0=disabled;
