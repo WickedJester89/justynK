@@ -97,7 +97,7 @@ Adjust game brightness setting the lower the number the brighter the screen.
 
 ### `Color Cycling=1`  
 0=disabled, 1=enabled;  
-Enable color cycling animation used for water, lava, acid animation.  
+Enable color cycling animation used for water, lava, and acid animation.  
 
 ### `FPS Limiter=1`  
 0=disabled, 1=enabled;  
