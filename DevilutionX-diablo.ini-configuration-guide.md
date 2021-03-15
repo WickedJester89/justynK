@@ -57,7 +57,7 @@ Enable Auto Equip sound.
 
 ### `Width=640`  
 ### `Height=480`  
-These settings affect display resolution of the game.  
+These settings affect game area minimal resolution.  
 The original game ran at 640x480, which corresponds to width=640 and height=480.  
 You can now easily change to your desired resolution by changing values. For example for 1920x1080 you would enter width=1920 and height=1080.  
 
@@ -67,14 +67,14 @@ This sets the game to run in Windowed or Fullscreen
 
 ### `Upscale=1`  
 0=disabled, 1=enabled;  
-Forces image to be upscaled to your current desktop resolution, maintaining the aspect ratio of the in game resolution.  
+Enable image upscaling to your current resolution, and allowing for window resizing.  
 
 ### `Fit to Screen=1`  
 0=disabled, 1=enabled;  
-Fits automatically game resolution to your current desktop screen settings.  
+Automatically adjust the game resolution to your current desktop screen aspect ratio and resolution.  
 
 ### `Scaling Quality=2`  
-0=nearest neighbor, 1=bicubic, 2=bilinear;  
+0=nearest neighbor, 1=bilinear, 2=anisotropic;  
 Enables optional filters to the output image when upscaling.
 
 ### `Integer Scaling=0`  
