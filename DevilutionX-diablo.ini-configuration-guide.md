@@ -107,9 +107,9 @@ When enabled FPS is limited to avoid high CPU load. When disabled the FPS will g
 # [Game]
 
 ### `Speed=20`  
-1=Min, 20=Default, 100=Max;  
-Adjust the rate at which game events take place.  
-Beware! It affects not only the player but also the monsters.  
+1=Min, 20=Default, 1000=Max;  
+Adjust the rate at which game events take place. Besides the max this will also be caped by your fps.
+Beware! It affects not only the player but also the monsters.
 
 
 ### `Fast Walk=0`  
@@ -131,15 +131,15 @@ Lester the farmer is replaced by the Complete Nut:
 
 ### `Friendly Fire=1`  
 0=disabled, 1=enabled;  
-Enables or disables damage between players in multiplayer game.  
+Enables or disables damage between players in multiplayer game even when friendly mode is on.  
 
 ### `Test Bard=0`  
 0=disabled, 1=enabled;  
-Enables Bard character type in hero selection menu.  
+Force the Bard character type to appear in hero selection menu.  
 
 ### `Test Barbarian=0`  
-0=disabled, 1=enabled;  
-Enables Barbarian character type in hero selection menu.  
+0=disabled, 1=enabled;   
+Force the Barbarian character type to appear in hero selection menu.
 
 ### `Experience Bar=0`  
 0=disabled, 1=enabled;  
@@ -163,33 +163,33 @@ Adria will refill your mana when you visit her shop.
 
 ### `Auto Equip Weapons=1`  
 0=disabled, 1=enabled;  
-Adds QoL feature Auto Equip Weapons.  
-Weapons will be automatically equipped on pickup if enabled.  
+Allows Auto Equip Weapons.  
+Weapons will be automatically equipped on pickup or purchase if enabled.  
 ### `Auto Equip Armor=0`  
 0=disabled, 1=enabled;  
 Adds QoL feature Auto Equip Armor.  
-Armor will be automatically equipped on pickup if enabled.  
+Armor will be automatically equipped on pickup or purchase if enabled.  
 ### `Auto Equip Helms=0`  
 0=disabled, 1=enabled;  
 Adds QoL feature Auto Equip Helms.  
-Helms will be automatically equipped on pickup if enabled.  
+Helms will be automatically equipped on pickup or purchase if enabled.  
 ### `Auto Equip Shields=0`  
 0=disabled, 1=enabled;  
 Adds QoL feature Auto Equip Shields.  
-Shields will be automatically equipped on pickup if enabled.  
+Shields will be automatically equipped on pickup or purchase if enabled.  
 ### `Auto Equip Jewelry=0`  
 0=disabled, 1=enabled;  
 Adds QoL feature Auto Equip Jewelry.  
-Jewelry will be automatically equipped on pickup if enabled.  
+Jewelry will be automatically equipped on pickup or purchase if enabled.  
 
 ### `Enable All Quests for Single Player=0`  
 0=disabled, 1=enabled;  
 Adds QoL feature Enables All Quests in Single Player.  
-Removes the one quest per quest group that is randomly removed and lets all quests to spawn in one game.  
+Disables randomly selecting available each game quests and lets all quests present in one game.  
 You need to start a new game for the setting to take effect.  
 
 
 # [Network]  
 
 ### `Bind Address=0.0.0.0`  
-Set a external IP address for multiplayer game.???
+Limit what network card to make the game available on when hosting a game.
