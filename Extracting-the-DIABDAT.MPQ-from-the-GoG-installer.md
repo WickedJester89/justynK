@@ -1,5 +1,10 @@
 ## Download GoG's Diablo offline installer
 
+## Install binary if available  
+
+Get the latest Windows release from [Innoextract Github](https://github.com/dscharrer/innoextract/releases/latest)  
+Ubuntu 20.04 and up you can install with `sudo apt install innoextract`  
+
 ## Install required dependencies for innoextract compilation
 
 ### innoextract requirements
@@ -14,10 +19,10 @@ From the innoextract [official install instructions](http://constexpr.org/innoex
 
 ### Ubuntu
 
-These dependencies can be installed on an Ubuntu system with the following command (as detailed on the innoextract [official install instructions](http://constexpr.org/innoextract/install) page:
+These dependencies can be installed on an Ubuntu system with the following command (as detailed on the innoextract [official install instructions](http://constexpr.org/innoextract/install) page):
 
 ```
-sudo apt-get install build-essential cmake libboost-all-dev liblzma-dev
+sudo apt install build-essential cmake libboost-all-dev liblzma-dev
 ```
 
 ### Other Operating Systems
@@ -69,18 +74,23 @@ Setup is not passworded!
 
 ```
 
-## Extract DIABDAT.MPQ from the installer
+## Extract DIABDAT.MPQ and the four Hellfire .mpqs from the installer
 
-`innoextract --include DIABDAT.MPQ --lowercase 'setup_diablo_1.09_hellfire_v2_(30038).exe'`
+Linux: `innoextract -I DIABDAT.MPQ -I hellfire.mpq -I hfmonk.mpq -I hfmusic.mpq -I hfvoice.mpq 'setup_diablo_1.09_hellfire_v2_(30038).exe' && mv hellfire/h*.mpq ./ && rmdir hellfire`  
 
-Note that we need the file to have a lowercase file name, thus the `--lowercase` in the above command.
+Windows: `innoextract -I DIABDAT.MPQ -I hellfire.mpq -I hfmonk.mpq -I hfmusic.mpq -I hfvoice.mpq setup_diablo_1.09_hellfire_v2_(30038).exe && move hellfire\h*.mpq .\ && rmdir hellfire`  
 
-```
-Inspecting "Diablo + Hellfire" - setup data version 5.6.2 (unicode)
- - "diabdat.mpq" [en-US]
-Done.
-```
+```  
+Extracting "Diablo + Hellfire" - setup data version 5.6.2 (unicode)  
+ - "DIABDAT.MPQ" [en-US]  
+ - "hellfire/hellfire.mpq" [en-US]  
+ - "hellfire/hfvoice.mpq" [en-US]  
+ - "hellfire/hfmusic.mpq" [en-US]  
+ - "hellfire/hfmonk.mpq" [en-US]  
+Done.  
+```  
 
-## Copy the extracted diabdat.mpq to the required location
+## Copy the extracted MPQs to the required location  
 
-`cp /some/path/diabdat.mpq /some/new/path/diabdat.mpq`
+Linux: `cp /some/path/*.mpq /some/new/path/*.mpq`  
+Windows: `copy c:\some\path\*.mpq c:\some\new\path\*.mpq`  
