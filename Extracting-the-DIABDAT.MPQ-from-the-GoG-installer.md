@@ -74,7 +74,7 @@ Setup is not passworded!
 
 ```
 
-## Extract DIABDAT.MPQ and the four Hellfire .mpqs from the installer
+## Extract DIABDAT.MPQ and the four Hellfire .MPQs from the installer
 
 Linux: `innoextract -I DIABDAT.MPQ -I hellfire.mpq -I hfmonk.mpq -I hfmusic.mpq -I hfvoice.mpq 'setup_diablo_1.09_hellfire_v2_(30038).exe' && mv hellfire/h*.mpq ./ && rmdir hellfire`  
 
