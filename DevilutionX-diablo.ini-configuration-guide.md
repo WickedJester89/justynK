@@ -185,7 +185,7 @@ Jewelry will be automatically equipped on pickup or purchase if enabled.
 ### `Enable All Quests for Single Player=0`  
 0=disabled, 1=enabled;  
 Adds QoL feature Enables All Quests in Single Player.  
-Disables randomly selecting available each game quests and lets all quests present in one game.  
+Disables randomly selecting available quests each game, and lets all quests be present in one game.  
 You need to start a new game for the setting to take effect.  
 
 
