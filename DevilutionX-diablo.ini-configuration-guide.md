@@ -71,7 +71,7 @@ Enable image upscaling to your current resolution, and allowing for window resiz
 
 ### `Fit to Screen=1`  
 0=disabled, 1=enabled;  
-Automatically adjust the game resolution to your current desktop screen aspect ratio and resolution.  
+Automatically adjust the game window to your current desktop screen aspect ratio and resolution.  
 
 ### `Scaling Quality=2`  
 0=nearest neighbor, 1=bilinear, 2=anisotropic;  
@@ -87,7 +87,7 @@ Forces waiting for Vertical Sync. Prevents tearing effect when drawing a frame.
 
 ### `Blended Transparency=1`  
 0=disabled, 1=enabled;  
-Enables a better transparency mode.  
+Enables uniform transparency mode.  
 New blended transparency affects the transparency on walls, game text menus and boxes.  
 If disabled will default to old checkerboard transparency.  
 
@@ -97,7 +97,7 @@ Adjust game brightness setting the lower the number the brighter the screen.
 
 ### `Color Cycling=1`  
 0=disabled, 1=enabled;  
-Enable color cycling animation used for water, lava, and acid animation.  
+Enable color cycling effect used for water, lava, and acid animation.  
 
 ### `FPS Limiter=1`  
 0=disabled, 1=enabled;  
@@ -114,7 +114,7 @@ Beware! It affects not only the player but also the monsters.
 
 ### `Fast Walk=0`  
 0=disabled, 1=enabled;  
-Enable jog/fast walking in town for Diablo and Hellfire introduced in Hellfire.  
+Enable jog/fast walking in town for Diablo and Hellfire. This option was introduced in the expansion.  
 
 ### `Grab Input=0`  
 0=disabled, 1=enabled;  
