@@ -88,7 +88,7 @@ Forces waiting for Vertical Sync. Prevents tearing effect when drawing a frame.
 ### `Blended Transparency=1`  
 0=disabled, 1=enabled;  
 Enables uniform transparency mode.  
-New blended transparency affects the transparency on walls, game text menus and boxes.  
+This setting affects the transparency on walls, game text menus and boxes.  
 If disabled will default to old checkerboard transparency.  
 
 ### `Gamma Correction=100`  
