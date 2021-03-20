@@ -2,7 +2,7 @@
 
 We have set up a [`.clang-format`](https://github.com/diasurgical/devilutionX/blob/master/.clang-format) definition that should be used for automatically formatting the code to the project code style. The formatting is based on [WebKit-code style](https://webkit.org/code-style-guidelines/), with some adjustments to better fit what has been found to be the original code style. Note that we only follow the formatting part of the WebKit style (i.e. everything `clang-format` automatically cleans up).
 
-To avoid initialized variables local variable declarations should happen at the first statment. See the example below:
+To avoid uninitialized variables local variable declarations should happen at the first statment. See the example below:
 
 *good*:
 ```c
