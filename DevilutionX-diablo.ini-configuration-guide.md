@@ -188,8 +188,17 @@ Adds QoL feature to Disable the Randomized Quests in Single Player.
 Disables randomly selecting available quests each game, and lets all quests be present in one game.  
 You need to start a new game for the setting to take effect.  
 
+### `Show Monster Type=0`
+0=disabled, 1=enabled;
+Adds QoL feature that Shows Monster Type in UI.
+When enabled if hovering over a monster that will display the type of monster in the description box in the UI.
+
 
 # [Network]  
 
 ### `Bind Address=0.0.0.0`  
 Limit what network card to make the game available on when hosting a game.
+
+### `Port=6112`
+1-65535;
+Set the Port of a multiplayer game to any port from 1-65535.
