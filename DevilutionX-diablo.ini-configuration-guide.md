@@ -182,9 +182,9 @@ Shields will be automatically equipped on pickup or purchase if enabled.
 Adds QoL feature Auto Equip Jewelry.  
 Jewelry will be automatically equipped on pickup or purchase if enabled.  
 
-### `Enable All Quests for Single Player=0`  
+### `Randomize Quests=1`  
 0=disabled, 1=enabled;  
-Adds QoL feature Enables All Quests in Single Player.  
+Adds QoL feature to Disable the Randomized Quests in Single Player.  
 Disables randomly selecting available quests each game, and lets all quests be present in one game.  
 You need to start a new game for the setting to take effect.  
 
