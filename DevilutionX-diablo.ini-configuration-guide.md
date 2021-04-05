@@ -196,6 +196,9 @@ When enabled if hovering over a monster that will display the type of monster in
 ### `Bind Address=0.0.0.0`
 Limit what network card to make the game available on when hosting a game.
 
+### `Previous Host=`
+Most recently entered Hostname in join dialog.
+
 ### `Port=6112`
 1-65535;
 Set the Port of a multiplayer game to any port from 1-65535.
