@@ -87,6 +87,8 @@ Enables uniform transparency mode.
 This setting affects the transparency on walls, game text menus, and boxes.
 If disabled will default to old checkerboard transparency.
 
+![](/diasurgical/devilutionX/wiki/transparency.png)
+
 ### `Gamma Correction=100`
 Min=100, Max=30;
 Adjust game brightness setting the lower the number the brighter the screen.
@@ -139,10 +141,14 @@ Force the Barbarian character type to appear in hero selection menu.
 Adds QoL feature Experience Bar.
 Experience Bar is added to the UI at the bottom of the screen.
 
+![](/diasurgical/devilutionX/wiki/xp.png)
+
 ### `Enemy Health Bar=0`
 0=disabled, 1=enabled;
 Adds QoL feature Enemy Health Bar.
 Enemy Health Bar is displayed at the top of the screen.
+
+![](/diasurgical/devilutionX/wiki/hp.png)
 
 ### `Auto Gold Pickup=0`
 0=disabled, 1=enabled;
