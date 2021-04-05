@@ -1,15 +1,15 @@
 # Welcome to DevilutionX diablo.ini configuration guide!  
 
 The config folder path may differ depending on OS version and security settings, but will normally be as follows:  
-- macOS ~/Library/Application Support/diasurgical/devilution  
-- Linux ~/.local/share/diasurgical/devilution/  
-- Windows C:\Users\[username]\AppData\Roaming\diasurgical\devilution  
+- macOS `~/Library/Application Support/diasurgical/devilution`
+- Linux `~/.local/share/diasurgical/devilution/`
+- Windows `%AppData%\Roaming\diasurgical\devilution`
 
-You can specify the location by passing the switch --config-dir  
+You can specify the location bypassing the switch --config-dir  
 
 By changing these values, you can configure the game to your liking.
-The options are divided in sections, where each adjustment comes with individual description.
-Setting a a value outside the allowed parameters will cause the game to ignore the setting and use the built in defaults.
+The options are divided into sections, where each adjustment comes with an individual description.
+Setting a value outside the allowed parameters will cause the game to ignore the setting and use the built-in defaults.
 The values below are the defaults as the game generates the file.  
 
 [[Diablo]](#Diablo)  
@@ -88,7 +88,7 @@ Forces waiting for Vertical Sync. Prevents tearing effect when drawing a frame.
 ### `Blended Transparency=1`  
 0=disabled, 1=enabled;  
 Enables uniform transparency mode.  
-This setting affects the transparency on walls, game text menus and boxes.  
+This setting affects the transparency on walls, game text menus, and boxes.  
 If disabled will default to old checkerboard transparency.  
 
 ### `Gamma Correction=100`  
@@ -108,7 +108,7 @@ When enabled FPS is limited to avoid high CPU load. When disabled the FPS will g
 
 ### `Speed=20`  
 1=Min, 20=Default, 1000=Max;  
-Adjust the rate at which game events take place. Besides the max this will also be caped by your fps.
+Adjust the rate at which game events take place. Besides the max, this will also be caped by your fps.
 Beware! It affects not only the player but also the monsters.
 
 
@@ -131,7 +131,7 @@ Lester the farmer is replaced by the Complete Nut:
 
 ### `Friendly Fire=1`  
 0=disabled, 1=enabled;  
-Enables or disables damage between players in multiplayer game even when friendly mode is on.  
+Allow arrow/spell damage between players in multiplayer even when friendly mode is on.
 
 ### `Test Bard=0`  
 0=disabled, 1=enabled;  
@@ -193,9 +193,7 @@ You need to start a new game for the setting to take effect.
 Adds QoL feature that Shows Monster Type in UI.
 When enabled if hovering over a monster that will display the type of monster in the description box in the UI.
 
-
 # [Network]  
-
 ### `Bind Address=0.0.0.0`  
 Limit what network card to make the game available on when hosting a game.
 
