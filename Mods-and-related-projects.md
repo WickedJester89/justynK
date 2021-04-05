@@ -16,14 +16,6 @@ Repo: https://github.com/qndel/Infernity
 
 # Ports
 
-## Nintendo 3DS
-
-Repo: https://github.com/MrHuu/devilutionX-3ds
-
-## PSP Vita
-
-Repo: https://github.com/gokuhs/devilutionX
-
 ## Android
 
 Repo: https://github.com/diasurgical/devilutionX/pull/522
