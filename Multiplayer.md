@@ -2,8 +2,8 @@ DevilutionX has build in TCP/IP support which only requires the host to expose p
 
 All games are encrypted and password protected.
 
-See https://github.com/diasurgical/devilutionX/wiki/DevilutionX-diablo.ini-configuration-guide#Network for configuration options
+See [diablo.ini Network section](https://github.com/diasurgical/devilutionX/wiki/DevilutionX-diablo.ini-configuration-guide#Network) for configuration options.
 
 ## Does it work with Battle.net?
 
-Battle.net is a service provided by Blizzard. We are not associated with them, so we have not worked on intergrating with their service.
+Battle.net is a service provided by Blizzard. We are not associated with them, so we have not worked on integrating with their service.
