@@ -3,7 +3,7 @@
 The config folder path may differ depending on OS version and security settings, but will normally be as follows:
 - macOS `~/Library/Application Support/diasurgical/devilution`
 - Linux `~/.local/share/diasurgical/devilution/`
-- Windows `%AppData%\Roaming\diasurgical\devilution`
+- Windows `%AppData%\diasurgical\devilution`
 
 You can specify the location by setting the `--config-dir` argument when starting the program.
 
