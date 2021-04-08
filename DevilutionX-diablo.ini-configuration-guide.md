@@ -53,7 +53,7 @@ Enable Auto Equip sound.
 # [Graphics]
 ### `Width=640`
 ### `Height=480`
-These settings affect the game's internal resolution and determins your view area.
+These settings affect the game's internal resolution and determine your view area.
 You can now easily change to your desired view area by changing the values. For example for 1920x1080 you would enter width=1920 and height=1080.
 _Note:_ This is not the same as screen resolution, see [Upscaling](#upscale1) or [Fit to Screen](#fit-to-screen1)
 
@@ -75,11 +75,11 @@ Enables optional filters to the output image when upscaling.
 
 ### `Integer Scaling=0`
 0=disabled, 1=enabled;
-Scales the image using whole number pixel ratio. If `Fit to Screen` is enabled and your monitor is not a multiple of the internal resolution, the internal resolution will be expanded to commodate it. For example 1920x1080 would result in a x2 scaling of a 960x540 view area. Or alternatly 640x480 scaled 2x, resulting in 1280x960 with black boarders if `Fit to Screen` is disabled.
+Scales the image using whole number pixel ratio. If `Fit to Screen` is enabled and your monitor is not a multiple of the internal resolution, the internal resolution will be expanded to commodate it. For example, 1920x1080 would result in a 2x scaling of a 960x540 view area. Or alternatively, 640x480 scaled 2x, resulting in 1280x960 with black boarders if `Fit to Screen` is disabled.
 
 ### `Vertical Sync=1`
 0=disabled, 1=enabled;
-Forces waiting for Vertical Sync. Prevents tearing effect when drawing a frame. Disabeling it can help with mouse lag on some systems.
+Forces waiting for Vertical Sync. Prevents tearing effect when drawing a frame. Disabling it can help with mouse lag on some systems.
 
 ### `Blended Transparency=1`
 0=disabled, 1=enabled;
@@ -109,7 +109,7 @@ Beware! It affects not only the player but also the monsters.
 
 ### `Run in Town=0`
 0=disabled, 1=enabled;
-Enable jog/fast walking in town for Diablo and Hellfire. This option was introduced in the expansion.
+Enable jogging/fast walking in town for Diablo and Hellfire. This option was introduced in the expansion.
 
 ### `Grab Input=0`
 0=disabled, 1=enabled;
@@ -126,15 +126,15 @@ Lester the farmer is replaced by the Complete Nut:
 
 ### `Friendly Fire=1`
 0=disabled, 1=enabled;
-Allow arrow/spell damage between players in multiplayer even when friendly mode is on.
+Allow arrow/spell damage between players in multiplayer even when the friendly mode is on.
 
 ### `Test Bard=0`
 0=disabled, 1=enabled;
-Force the Bard character type to appear in hero selection menu.
+Force the Bard character type to appear in the hero selection menu.
 
 ### `Test Barbarian=0`
 0=disabled, 1=enabled;
-Force the Barbarian character type to appear in hero selection menu.
+Force the Barbarian character type to appear in the hero selection menu.
 
 ### `Experience Bar=0`
 0=disabled, 1=enabled;
