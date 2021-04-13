@@ -67,7 +67,7 @@ The game will run and use the specified path after the argument as a save folder
 The game will run looking in the specified folder for the diablo.ini configuration file. If the file doesn’t exist one will be created. Might need administrator permissions to write in the desired folder.
 
 
-Specify the location of the .ttf font
+### Specify the location of the .ttf font
 ### `--ttf-dir`
 The game will run looking for its default font used for displaying system messages and credits in the specified path.
 
