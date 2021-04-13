@@ -9,11 +9,11 @@ This guide will list and explain the available additional arguments when running
 [[Hellfire specific options]](#Hellfire)
 
 # [HowToUse]
-Windows:
+## Windows:
 To apply these settings when starting the game under windows you have few options.
 
 
-CMD / BAT file
+### CMD / BAT file
 
 Create text file in you `devilutionX folder`
 Open it and enter the name of the DevilutionX executable followed by argument and parameter. [example: `devilutionx --data-dir d:\games\diablo`]
@@ -22,12 +22,12 @@ Use it to start the game.
 Optionally you can create a shortcut to that file .
 
 
-Shortcut file
+### Shortcut file
 
 When in DevilutionX left click on the executable and select create shortcut
 Left click on the shotcut and select properties.
 Under shortcut tab, target field, after the path and executable add the desired arguments and paths.
-[example: `devilutionx --data-dir d:\games\diablo\devilution.exe -n -f --diablo`]
+[example: `d:\games\diablo\devilution.exe -n -f --diablo`]
 Use the shortcut to start the game.
 
 
@@ -39,7 +39,7 @@ Use the shortcut to start the game.
 # [Help]
 
 
-Print this message and exit
+### Print this message and exit
 ### `-h, --help`
 The game will run and show a text help screen that briefly explains the arguments and then will terminate.
 
