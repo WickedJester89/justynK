@@ -60,6 +60,11 @@ cmake --build build -j $(nproc) --target package
 ```
 sudo apt-get install git rpm cmake g++ libsdl2-dev libsdl2-mixer-dev libsdl2-ttf-dev libsodium-dev
 ```
+
+### Installing dependencies on Alpine Linux
+```
+sudo apk add git cmake g++ sdl2-dev sdl2_mixer-dev sdl2_ttf-dev libsodium-dev
+```
 ### Compiling
 ```
 git clone https://github.com/diasurgical/devilutionx
