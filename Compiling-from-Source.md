@@ -107,4 +107,4 @@ The default build type is `Debug`. This can be changed with `-DBINARY_RELEASE=ON
 ## mingw32
 Use `-DCROSS_PREFIX=/path/to/prefix` if the `i686-w64-mingw32` directory is not in `/usr`.
 ## Tests
-If you want to run all tests during compilation, simply add `-DRUN_TESTS=ON`.
+If you want to run all tests during compilation, simply add `-DRUN_TESTS=ON`. This will compile a binary that runs the tests.
