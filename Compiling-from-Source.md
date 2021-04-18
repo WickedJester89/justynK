@@ -101,3 +101,5 @@ cmake --build build -j $(nproc) --target package
 The default build type is `Debug`. This can be changed with `-DBINARY_RELEASE=ON`. Independently of this, the debug mode of the Diablo engine is always enabled by default. It can be disabled with `-DDEBUG=OFF`. Finally, in debug builds the address sanitizer is enabled by default. This can be disabled with `-DASAN=OFF`.
 ## mingw32
 Use `-DCROSS_PREFIX=/path/to/prefix` if the `i686-w64-mingw32` directory is not in `/usr`.
+## Tests
+If you want to run all tests during compilation, simply add `-DRUN_TESTS=ON`.
