@@ -192,6 +192,11 @@ You need to start a new game for the setting to take effect.
 Adds QoL feature that Shows Monster Type in UI.
 When enabled if hovering over a monster that will display the type of monster in the description box in the UI.
 
+### `Disable Crippling Shrines=0`
+0=disabled, 1=enabled;
+Adds QoL feature that locally disables clicking on shrines which permanently cripple character.
+When enabled Cauldrons, Fascinating Shrines, Goat Shrines, Ornate Shrines and Sacred Shrines are not able to be clicked on and labeled as disabled.
+
 # [Network]
 ### `Bind Address=0.0.0.0`
 Limit what network card to make the game available on when hosting a game.
