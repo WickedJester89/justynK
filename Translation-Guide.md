@@ -58,13 +58,14 @@ Since the localization feature is not yet implemented in the latest release we w
 - Extract the release and copy the corresponding mpq files (Hellfire is suggested) into the folder. If you need more information about that process please refer to the [installation guide](https://github.com/diasurgical/devilutionX/blob/master/docs/installing.md)
 - Download one of the latest successful artifact builds from [here](https://github.com/diasurgical/devilutionX/actions?query=branch%3Amaster+is%3Asuccess)
 - Select your operation system on the left and then select the newest build on the right. Download the `.zip` file and extract the new devilutionx.exe to the above created installation.
+- Start the development build by running the `devilutionx.exe`
 - Modify your diablo.ini Depending on your system you can find your `diablo.ini` in the following locations:
 
 	- macOS `~/Library/Application Support/diasurgical/devolution`
 	- Linux `~/.local/share/diasurgical/devilution/`
 	- Windows `%AppData%\diasurgical\devilution`
 
-- Make sure to create a backup of your current `diablo.ini` and then delete the original file; then start the `DevilutionX` preview version. This will generate a new `diablo.ini` which includes a setting named `Code=en`. Change the `en` to your language.
+- Change the "Code=en" to your language. Don't worry: Not yet translated texts will be displayed in English.
 
 ### Step 2: Translation Mindset
 
@@ -75,15 +76,15 @@ Translating a video game is not simply done by changing words into your language
 This might sound obvious but never forget that your text will seem to be easily comprehensible to yourself, yet might be less obvious for others. To ensure it works for others as well here are some really basic rules:
 
 * Try to be as explicit as possible. If you have to use abbreviations make sure they are well known (e.g. "Level" to "LVL" is likely understandable but if you have enough room please stick with "Level". Try to avoid making things up, e.g. "vel" would be a bad idea).
-* Test early, test often. To ensure that everything looks right and is readable try to test as much as possible. Try to limit things that have to be tested to a few, maybe a dozens, translated keys. - See Step 3 for a guide.
+* Test early, test often. To ensure that everything looks right and is readable try to test as much as possible. Try to limit things that have to be tested to a few, maybe a dozen, translated keys. - See Step 3 for a guide. You can expand that later on when you know your way around a bit better but it's good to start small. :) 
 * Ask for help if you don't know something. Either if you are trying to test for errors which you don't know how to cause or if the context of a string isn't clear. The people on Discord are welcoming and friendly and there are no "stupid questions". However: Contributors also have a live outside of developing DevilutionX, please leave them time to reply and just continue with the next string instead.
 * Grammar and orthography should be correct however you can and should take your liberties to keep the atmosphere alive. (E.g.: Griswold has a heavy dialect in the game, you can reflect that. A good approach might, for example, be translating it into a local dialect.)
-* Building up on the previous point: Work to create atmosphere. Your texts should aim to keep peoples fun alive.
+* Building up on the previous point: Work to create atmosphere. Your texts should aim to keep the fun alive.
 * If you know somebody who'd is native in the language let them play and play test!
 * If somebody changes something you translated they will have the same good intentions as you do. If you are unsatisfied with something you should reach out to the person. Stay friendly. :) 
 * Keep track of things. E.g. Make sure that names are always translated the same way.
 
-**Important**: Currently DevilutionX doesn't show international symbols correctly. Please feel free to use them anyway; they might not be displayed or not correctly displayed at the moment bu that will be fixed by the final release.
+**Important**: Currently DevilutionX doesn't show international symbols correctly. Please feel free to use them anyway; they might be not correctly displayed or shown at the moment bu that will be fixed by the next stable release. 
 
 ### Step 3: Testing
 
@@ -91,7 +92,7 @@ After you translated a few strings it's advisable to save and test your changes.
 
 Now start the DevilutionX preview we created in Step 1. Play the game to see your changes. 
 
-It is generally advisable to keep Poedit open and directly apply changes if needed. Unfortunately you will have to restart the game to see new changes.
+It is generally advisable to keep Poedit open and directly apply changes if needed. Unfortunately you will have to restart the game to review edits in the game.
 
 ### Step 4: Publishing
 
