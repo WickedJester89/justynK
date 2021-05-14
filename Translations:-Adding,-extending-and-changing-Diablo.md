@@ -108,6 +108,7 @@ To do so we have to follow a few steps:
 - Now you can click on "Commit to **master**"
 - Now press the blue button in the main Window labeled `Push origin`.
 - If an error message shows up click on `Fetch`, then `Pull origin`, then `Push origin` again.
+    - If there was an update make sure to click on `Update from code` to ensure your translation database is up-to-date.
 - Your changes are now uploaded to GitHub! :) 
 - To send your translation to the main repository go to [Pull requests](https://github.com/diasurgical/devilutionX/pulls)
 - Click on `New Pull Request` in the upper right corner.
