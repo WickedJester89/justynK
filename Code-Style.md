@@ -83,6 +83,21 @@ Null-pointers should use `nullptr` instead of `0` to stand out more between nume
 
 *Reasoning*: Comparing with the literals of the right type makes the intent of the check clearer in many cases.
 
+# Adding notes for translators
+
+If you create a new string visible to the user please make sure to include a note for translators if the context isn't clear. As we are using an automated process to export the strings please follow this style:
+
+* Short notes can be done inline: `_( /* TRANSLATORS: New UI Element showing foo bar */ "foo bar"),`
+* For more complex explanations please use `// TRANSLATORS:` as comment before printing the message.
+
+Example: 
+```
+// TRANSLATORS: This here is the new UI function a player can toggle via the diablo.ini. %s will be the player name %i the players level. [...]
+sprintf(msg, _("%s is level %i.")
+```
+
+*Note*: POedit will look for the Tags `_` and `N_` to export a string for translation. The useage of ` TRANSLATORS: ` will export the text as a note for translators. Other comments will be ignored. 
+
 # Comments
 
 * Use Doxygen style for documentation of the code
