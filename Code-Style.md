@@ -96,7 +96,7 @@ Example:
 sprintf(msg, _("%s is level %i.")
 ```
 
-*Note*: POedit will look for the Tags `_` and `N_` to export a string for translation. The useage of ` TRANSLATORS: ` will export the text as a note for translators. Other comments will be ignored. 
+*Note*: Poedit will look for the Tags `_`, `N_` and `ngettext` to export a string for translation. The useage of ` TRANSLATORS: ` will export the text as a note for translators. Other comments will be ignored. 
 
 # Comments
 
