@@ -121,4 +121,4 @@ Thats it! Your translation will now be checked for technical errors and then be 
 ## Useful Links and FAQ
 
 * If you have any questions please reach out on [Discord](https://discord.gg/YQKCAYQ)
-* ~~There is a glossary available here.~~ - Prepared by not pulled. Will be updated.
+* There is a glossary available [here](https://github.com/diasurgical/devilutionX/blob/master/Translations/glossary.md).
