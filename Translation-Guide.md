@@ -9,7 +9,7 @@
 	* [Step 2: Translation Mindset](#step-2-translation-mindset)
 	* [Step 3: Testing](#step-3-testing)
 	* [Step 4: Publishing](#step-4-publishing)
-* Questions
+* [Useful Links and FAQ](#useful-links-and-faq)
 
 # Introduction
 
@@ -118,6 +118,7 @@ To do so we have to follow a few steps:
 
 Thats it! Your translation will now be checked for technical errors and then be published. You can now officially call yourself an open source contributor. :) 
 
-## Questions
+## Useful Links and FAQ
 
-If you have any questions please reach out on [Discord](https://discord.gg/YQKCAYQ)
+* If you have any questions please reach out on [Discord](https://discord.gg/YQKCAYQ)
+* ~~There is a glossary available here.~~ - Prepared by not pulled. Will be updated.
