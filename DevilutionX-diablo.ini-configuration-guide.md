@@ -18,6 +18,7 @@ The values below are the defaults as the game generates the file.
 [[Graphics]](#Graphics)
 [[Game]](#Game)
 [[Network]](#Network)
+[[Controller]](#Controller)
 
 
 # [Diablo]
@@ -207,3 +208,7 @@ Most recently entered Hostname in join dialog.
 ### `Port=6112`
 1-65535;
 Set the Port of a multiplayer game to any port from 1-65535.
+
+# [Controller]
+### `Mapping='
+If you have a specific SDL_CONTROLLERCONFIG mapping, you can set it here.
