@@ -212,3 +212,5 @@ Set the Port of a multiplayer game to any port from 1-65535.
 # [Controller]
 ### `Mapping='
 If you have a specific SDL_CONTROLLERCONFIG mapping, you can set it here.
+
+You can connect your gamepad to a PC and use this Windows/macOS/Linux app to generate the mapping: https://generalarcade.com/gamepadtool/
