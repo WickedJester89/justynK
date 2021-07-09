@@ -1,6 +1,6 @@
 # Mods
 
-This is a list of known mods to DevilutionX. Feel free to extend it by sending a PR.
+This is a list of known mods to Devilution/DevilutionX. Feel free to extend it by sending a PR.
 
 ## Infernity [Devilution mod - Windows only]
 
@@ -48,14 +48,6 @@ Repo: https://github.com/qndel/devilutionX/tree/pixellight
 PR: https://github.com/diasurgical/devilutionX/pull/559
 
 ![Screenshot](https://user-images.githubusercontent.com/14297035/73365812-2bcf4200-42ad-11ea-9916-9f9d4b12f791.png "Per-pixel lighting")
-
-## QOL patches by [@Manuel-K](https://github.com/Manuel-K)
-
-Repo: https://github.com/Manuel-K/devilutionX-QOL-patches
-
-* Run in town
-* Highlight items
-* Monster HP bar
 
 ##  Add fix to allow all unique items to drop
 
