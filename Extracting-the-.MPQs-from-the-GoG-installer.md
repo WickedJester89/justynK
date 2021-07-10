@@ -4,6 +4,7 @@
 
 Get the latest Windows release from [Innoextract Github](https://github.com/dscharrer/innoextract/releases/latest)  
 Ubuntu 20.04 and up you can install with `sudo apt install innoextract`  
+For macOS you can use [homebrew](https://brew.sh): `brew install innoextract`  
 
 ## Install required dependencies for innoextract compilation
 
@@ -92,5 +93,6 @@ Done.
 
 ## Copy the extracted MPQs to the required location  
 
-Linux: `cp /some/path/*.mpq /some/new/path/*.mpq`  
-Windows: `copy c:\some\path\*.mpq c:\some\new\path\*.mpq`  
+Linux: `cp /some/path/*.mpq /some/new/path/`  
+macOS: `cp *.mpq ~/Library/Application\ Support/diasurgical/devilution`  
+Windows: `copy c:\some\path\*.mpq c:\some\new\path\`  
