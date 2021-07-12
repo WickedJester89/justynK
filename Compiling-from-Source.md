@@ -1,3 +1,5 @@
+See also [docs/building.md](https://github.com/diasurgical/devilutionX/blob/master/docs/building.md).
+
 # 32-bit building on 64-bit platforms
 ## Linux
 ### Installing dependencies on Debian and Ubuntu
