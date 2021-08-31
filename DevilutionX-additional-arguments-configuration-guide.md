@@ -86,7 +86,7 @@ The game will run in windowed mode.
 
 
 ### `--spawn`
-The game will be forced to run in Diablo:spawn mode even if diabda.mpq exist. This allow you to explore only the cathedral level with the warrior. It features all the limitations of the original diablo spawn.
+The game will be forced to run in Diablo:spawn mode even if diabdat.mpq exist. This allow you to explore only the cathedral level with the warrior. It features all the limitations of the original diablo spawn.
 
 
 # [Hellfire]
