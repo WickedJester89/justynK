@@ -1,4 +1,4 @@
-To help you get your debugging job done, there is a rich set of debug commands (some call them cheats) which could be used when running a version which has been compiled in debug mode. So these cheats are not available in releases at the moment.
+To help you get your debugging job done, there is a rich set of debug commands which can be used when running a version which has been compiled in debug mode. These commands are not available as cheats in releases.
 You can enter them anytime in-game by pushing Enter and typing.
 
 At the moment there are:
