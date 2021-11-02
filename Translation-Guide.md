@@ -1,6 +1,6 @@
 # Table of Contents
 * [Introduction](#introduction)
-* [Prerequisites](#perquisites)
+* [Prerequisites](#prerequisites)
 * [Translation Process](#translation-process)
 	* [Step 1: Setup](#step-1-setup)
         * GitHub
@@ -19,7 +19,7 @@ This document aims to be a comprehensive and easy to use entry point to get star
 
 This Wiki focuses on the setup process on Windows and Mac. Feel free to reach out to the official [Discord Channel](https://discord.gg/YQKCAYQ) if you need assistance setting it up in Linux.
 
-# Prerequisite
+# Prerequisites
 
 Programs:
 * Git Client (recommended for inexperienced users: [GitHub Desktop](https://desktop.github.com/))
