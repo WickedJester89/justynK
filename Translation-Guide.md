@@ -1,7 +1,7 @@
 # Table of Contents
 * [Introduction](#introduction)
 * [Prerequisites](#perquisites)
-* Translation Process
+* [Translation Process](#translation-process)
 	* [Step 1: Setup](#step-1-setup)
         * GitHub
         * Poedit
