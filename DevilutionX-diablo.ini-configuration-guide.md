@@ -19,6 +19,7 @@ The values below are the defaults as the game generates the file.
 [[Game]](#Game)
 [[Network]](#Network)
 [[Controller]](#Controller)
+[[Language]](#Language)
 
 
 # [Diablo]
@@ -212,5 +213,9 @@ Set the Port of a multiplayer game to any port from 1-65535.
 # [Controller]
 ### `Mapping='
 If you have a specific SDL_CONTROLLERCONFIG mapping, you can set it here.
+
+# [Language]
+### `Code='
+Define what language to use in game, current available languages are bg, cs, da, de, en, es, fr, hr, it, ko_KR, pl, pt_BR, ro_RO, ru, sv, uk, zh_CN, and zh_TW
 
 You can connect your gamepad to a PC and use this Windows/macOS/Linux app to generate the mapping: https://generalarcade.com/gamepadtool/
