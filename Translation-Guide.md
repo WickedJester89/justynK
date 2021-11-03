@@ -50,12 +50,15 @@ It is heavily suggested that you update the development files before you start a
 - In the folder structure open `../devilutionx/Translations/devilutionx.pot` if there is no translation to your language currently available. Otherwise please select an `.po` file corresponding to the two letter language code from the same folder. (e.g. `dk.po` for danish)
 - If you want to start translating into a new language click on `Create new translation` button within Poedit and select the language you want to translate into. 
 
-**DevilutionX preview**
+**DevilutionX**
 
-Since the localization feature is not yet implemented in the latest release we will have to create a local preview copy of the game. 
+You can test your translation in DevilutionX release version 1.3.0 or newer.
 
 - Grab the latest stable release from [here](https://github.com/diasurgical/devilutionX/releases)
 - Extract the release and copy the corresponding mpq files (Hellfire is suggested) into the folder. If you need more information about that process please refer to the [installation guide](https://github.com/diasurgical/devilutionX/blob/master/docs/installing.md)
+
+In case you're testing a new localization feature not available in the release version, you will need to upgrade your installation to the latest development build.
+
 - Download one of the latest successful artifact builds from [here](https://github.com/diasurgical/devilutionX/actions?query=branch%3Amaster+is%3Asuccess)
 - Select your operation system on the left and then select the newest build on the right. Download the `.zip` file and extract the new devilutionx.exe to the above created installation.
 - Start the development build by running the `devilutionx.exe`
