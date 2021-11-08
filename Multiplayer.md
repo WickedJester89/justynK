@@ -18,6 +18,8 @@ This mode provides the easiest way to play with others over the internet. No ext
 
 When entering the in-game `ZeroTier` menu, your device will automatically configure itself to join the ZeroTier network so it can exchange messages with others on that network. This autoconfiguration may take somewhere around a full minute the first time you attempt to use this mode. If you are having trouble creating or joining games in this mode, you can try waiting around in the menu for the autoconfiguration to complete.
 
+When a hosting a game using the ZeroTier mode, a name will be randomly generated and automatically assigned to the game session. In order to see the name of the game session you are currently playing, open the automap and check the upper-left corner of the game window.
+
 ZeroTier games are not hosted on any server, nor are they hosted by any particular player. The game session is maintained by every peer who has joined the game, and as far as the game session is concerned, all peers are equal. As long as any player is still actively playing the game, players can join, leave, or rejoin in any order and the game session will remain active. The game session will disappear the moment all players have left the game.
 
 ZeroTier configuration is stored in the DevilutionX configuration directory (`--config-dir`). This configuration directory contains your device's ZeroTier network address. You will not be able to run multiple clients from the same device using the same ZeroTier configuration. For more information about how to change your configuration directory, see: https://github.com/diasurgical/devilutionX/wiki/DevilutionX-additional-arguments-configuration-guide#configdir).
