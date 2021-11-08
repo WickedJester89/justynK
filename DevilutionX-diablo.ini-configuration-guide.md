@@ -1,8 +1,9 @@
 # Welcome to DevilutionX diablo.ini configuration guide!
 
 The config folder path may differ depending on OS version and security settings, but will normally be as follows:
-- macOS `~/Library/Application Support/diasurgical/devilution`
+- Android `Android/data/org.diasurgical.devilutionx/files`
 - Linux `~/.local/share/diasurgical/devilution/`
+- macOS `~/Library/Application Support/diasurgical/devilution`
 - Windows `%AppData%\diasurgical\devilution`
 
 You can specify the location by setting the `--config-dir` argument when starting the program.
