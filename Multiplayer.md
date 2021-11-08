@@ -14,6 +14,8 @@ Any multiplayer character created in any mode can also be played in any other mo
 
 This mode provides the easiest way to play with others over the internet. No external configuration (such as entering IP addresses, ports, firewall rules, etc.) should be necessary to play games on the ZeroTier network. All you need to do is run the game, select this mode, and start creating or joining games.
 
+![Image showing where joinable games will appear](https://media.discordapp.net/attachments/851552676033724437/906573763204755486/unknown.png)
+
 When entering the in-game `ZeroTier` menu, your device will automatically configure itself to join the ZeroTier network so it can exchange messages with others on that network. This autoconfiguration may take somewhere around a full minute the first time you attempt to use this mode. If you are having trouble creating or joining games in this mode, you can try waiting around in the menu for the autoconfiguration to complete.
 
 ZeroTier games are not hosted on any server, nor are they hosted by any particular player. The game session is maintained by every peer who has joined the game, and as far as the game session is concerned, all peers are equal. As long as any player is still actively playing the game, players can join, leave, or rejoin in any order and the game session will remain active. The game session will disappear the moment all players have left the game.
