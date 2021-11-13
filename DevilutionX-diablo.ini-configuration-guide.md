@@ -214,6 +214,8 @@ Set the Port of a multiplayer game to any port from 1-65535.
 # [Controller]
 ### `Mapping='
 If you have a specific SDL_CONTROLLERCONFIG mapping, you can set it here.
+### `deadzone='
+If your joysticks are loose you can increase this to ignore unwanted movment.
 
 # [Language]
 ### `Code='
