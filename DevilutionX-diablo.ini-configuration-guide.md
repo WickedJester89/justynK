@@ -225,22 +225,22 @@ You can connect your gamepad to a PC and use this Windows/macOS/Linux app to gen
 Define what language to use in game, please select one of current available language codes: bg, cs, da, de, en, es, fr, ja, hr, it, ko_KR, pl, pt_BR, ro_RO, ru, sv, uk, zh_CN, and zh_TW. 
 
 Code stands for:
-bg - Bulgarian
-cs - Czech
-da - Danish
-de - German
-en - English
-es - Spanish
-fr - French
-ja - Japanese
-hr - Croatian 
-it - Italian
-ko_KR - Korean
-pl - Polish
-pt_BR - Portuguese (Brazil)
-ro_RO - Romanian
-ru - Russian
-sv - Swedish
-uk - Ukrainian 
-zh_CN - Chinese Simplified
-zh_TW - Chinese Traditional
+bg - Bulgarian; 
+cs - Czech; 
+da - Danish; 
+de - German; 
+en - English; 
+es - Spanish; 
+fr - French; 
+ja - Japanese; 
+hr - Croatian; 
+it - Italian; 
+ko_KR - Korean; 
+pl - Polish; 
+pt_BR - Portuguese (Brazil); 
+ro_RO - Romanian; 
+ru - Russian; 
+sv - Swedish; 
+uk - Ukrainian ; 
+zh_CN - Chinese Simplified; 
+zh_TW - Chinese Traditional; 
