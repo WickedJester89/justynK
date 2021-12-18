@@ -14,6 +14,12 @@ Repo: https://github.com/qndel/Infernity
 ![Screenshot 6: Highlighting items](https://i.imgur.com/xQrMDFA.jpg "highlighting items with alt")
 ![Screenshot 7: Loot filters](https://i.imgur.com/cPSnknD.jpg "loot filters to customize names and colors")
 
+## Apocrypha [DevilutionX 1.3.0 balance patch - Windows only]
+
+Repo: https://github.com/SoundChaser83/devilutionx-apocrypha
+
+![New shrines/apocryphal texts](https://user-images.githubusercontent.com/54762359/146628251-00e20f67-01a0-49d6-b055-10df4509eda6.png)
+
 # Ports
 
 ## Android
