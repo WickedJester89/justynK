@@ -22,14 +22,6 @@ Repo: https://github.com/SoundChaser83/devilutionx-apocrypha
 
 # Ports
 
-## Android
-
-Repo: https://github.com/diasurgical/devilutionX/pull/522
-
-## iOS
-
-Repo: https://github.com/MaxDesiatov/devilutionX/tree/iOS-arm64
-
 ## Raspberry Pi Sense HAT Renderer
 
 Repo: https://github.com/AJenbo/devilutionX/tree/SenseHAT
