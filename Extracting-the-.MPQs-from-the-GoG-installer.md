@@ -94,5 +94,5 @@ Done.
 ## Copy the extracted MPQs to the required location  
 
 Linux: `cp /some/path/*.mpq /some/new/path/`  
-macOS: `cp *.mpq ~/Library/Application\ Support/diasurgical/devilution`  
+macOS: `cp *.[mM][pP][qQ] ~/Library/Application\ Support/diasurgical/devilution`  
 Windows: `copy c:\some\path\*.mpq c:\some\new\path\`  
