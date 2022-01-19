@@ -64,7 +64,7 @@
 
 5. **Hit** `Ctrl+o` on your keyboard to bring up the full terminal.
 
-6. **Type** `apt install libsdl2` and install.
+6. **Type** `apt install libsdl2-2.0-0` and install.
 
 8. **Type** `exit` to exit terminal then `F10` to exit the file mananger.
 
