@@ -8,7 +8,7 @@
 
 3. **Download** the latest [release](https://github.com/diasurgical/devilutionX/releases) of `linux-armhf.7z`.
 
-4. **Extract** `devilutionx` and `CharisSILB.ttf` into the `diablo folder`.
+4. **Extract** `devilutionx` and `devilutionx.mpq` into the `diablo folder`.
 
 5. **Create** another folder inside the `diablo folder` called `gamedata` (we'll use this later).
 
@@ -64,9 +64,7 @@
 
 5. **Hit** `Ctrl+o` on your keyboard to bring up the full terminal.
 
-6. **Type** `apt install libsdl2-mixer` and install.
-
-7. **Type** `apt install libsdl2-ttf` and install.
+6. **Type** `apt install libsdl2` and install.
 
 8. **Type** `exit` to exit terminal then `F10` to exit the file mananger.
 
