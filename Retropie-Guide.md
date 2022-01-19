@@ -10,7 +10,7 @@
 
 4. **Extract** `devilutionx` and `devilutionx.mpq` into the `diablo` folder.
 
-5. **Create** another folder inside the `diablo folder` called `gamedata` (we'll use this later).
+5. **Create** another folder inside the `diablo` folder called `gamedata` (we'll use this later).
 
 6. **Open** Windows Explorer and navigate to the ports directory on your pie `\\retropie\roms\ports\`.
 
