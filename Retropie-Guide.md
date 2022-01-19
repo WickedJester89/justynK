@@ -8,7 +8,7 @@
 
 3. **Download** the latest [release](https://github.com/diasurgical/devilutionX/releases) of `linux-armhf.7z`.
 
-4. **Extract** `devilutionx` and `devilutionx.mpq` into the `diablo folder`.
+4. **Extract** `devilutionx` and `devilutionx.mpq` into the `diablo` folder.
 
 5. **Create** another folder inside the `diablo folder` called `gamedata` (we'll use this later).
 
