@@ -20,6 +20,10 @@ Repo: https://github.com/SoundChaser83/devilutionx-apocrypha
 
 ![New shrines/apocryphal texts](https://user-images.githubusercontent.com/54762359/146628251-00e20f67-01a0-49d6-b055-10df4509eda6.png)
 
+## Middle Earth Mod (originally created by Varaya and Khan for Diablo 1.07)
+
+Repo: https://github.com/DakkJaniels/devilutionX/tree/MEMod
+
 # Ports
 
 ## Raspberry Pi Sense HAT Renderer
@@ -111,6 +115,3 @@ Repo: https://github.com/sergi4ua/equine
 
 > Mod manager/launcher for Diablo 1
 
-## Middle Earth Mod (originally created by Varaya and Khan for Diablo 1.07)
-
-Repo: https://github.com/DakkJaniels/devilutionX/tree/MEMod
