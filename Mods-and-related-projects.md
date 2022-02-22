@@ -110,3 +110,7 @@ Repo: https://github.com/footballhead/devilutionX/commits/etherealize_demo?autho
 Repo: https://github.com/sergi4ua/equine
 
 > Mod manager/launcher for Diablo 1
+
+## Middle Earth Mod (originally created by Varaya and Khan for Diablo 1.07)
+
+Repo: https://github.com/DakkJaniels/devilutionX/tree/MEMod
