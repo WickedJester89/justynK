@@ -8,7 +8,7 @@
         * DevilutionX preview
 	* [Step 2: Translation Mindset](#step-2-translation-mindset)
 	* [Step 3: Testing](#step-3-testing)
-        * [Step 4: Add the asset & the option to the game](#step-4-option)
+	* [Step 4: Add the asset & the option to the game](#step-4-option)
 	* [Step 5: Publishing](#step-5-publishing)
 * [Useful Links and FAQ](#useful-links-and-faq)
 
