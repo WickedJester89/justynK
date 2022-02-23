@@ -8,7 +8,8 @@
         * DevilutionX preview
 	* [Step 2: Translation Mindset](#step-2-translation-mindset)
 	* [Step 3: Testing](#step-3-testing)
-	* [Step 4: Publishing](#step-4-publishing)
+        * [Step 4: Add the asset & the option to the game](#step-4-option)
+	* [Step 5: Publishing](#step-5-publishing)
 * [Useful Links and FAQ](#useful-links-and-faq)
 
 # Introduction
@@ -97,7 +98,25 @@ Now start the DevilutionX preview we created in Step 1. Play the game to see you
 
 It is generally advisable to keep Poedit open and directly apply changes if needed. Unfortunately you will have to restart the game to review edits in the game.
 
-### Step 4: Publishing
+### Step 4: Add the asset & the option to the game
+
+1. You need to add the option for the player to pick your language in the menu:
+Goto /source/options.cpp and add it at around line 968, use a unicode string of how the language is called to the speaker.
+
+Example - Spanish
+
+``` 
+languages.emplace_back("es", "Español");
+```
+
+2. You need to instruct the build system to include your compiled translation file into the devilutionx.MPQ:
+Goto /CMake/Assets.cmake, line 5 and add it in:
+
+```
+set(devilutionx_langs bg cs da de el es fr hr it ja ko pl pt_BR ro ru uk sv zh_CN zh_TW)
+```
+
+### Step 5: Publishing
 
 After you tested your translation you can now upload it back to GitHub where it will then be merged into the main repository and made available for others to use or add to your work.
 
