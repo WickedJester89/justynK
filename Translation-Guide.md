@@ -92,7 +92,7 @@ This might sound obvious but never forget that your text will seem to be easily 
 
 ### Step 3: Testing
 
-After you translated a few strings it's advisable to save and test your changes. To do so simply press the "Save" button in Poedit and save your translation. If you create a new file save it with the two letter language code and the file ending `.po`. In the standard settings Poedit will also create a second file with an `.mo` file extension. Copy the `.mo` file to your DevilutionX preview folder.
+After you translated a few strings it's advisable to save and test your changes. To do so simply press the "Save" button in Poedit and save your translation. If you create a new file save it with the two letter language code and the file ending `.po`. In the standard settings Poedit will also create a second file with an `.mo` file extension. Copy the `.mo` file to your DevilutionX/Assets folder. If the Assets subfolder doesn't exist yet, create it.
 
 Now start the DevilutionX preview we created in Step 1. Play the game to see your changes. 
 
