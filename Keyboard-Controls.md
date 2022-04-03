@@ -4,7 +4,7 @@
 
 Additional shortcuts and key combinations:
 * **Alt+Enter** toggles fullscreen
-* **Shift-click** consumables to move them between the belt and the inventory
+* **Shift-click** consumables to move them between the belt and the inventory or stash
 * **Shift-click** equipment to equip from or unequip to the inventory or stash
 * **Shift-click** to spend all stat points
 * **Shift-click** to clear readied spell
