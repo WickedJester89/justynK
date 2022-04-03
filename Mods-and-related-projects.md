@@ -24,6 +24,10 @@ Repo: https://github.com/SoundChaser83/devilutionx-apocrypha
 
 Repo: https://github.com/DakkJaniels/devilutionX/tree/MEMod
 
+## DiabloX (increased challenge and rebalancing)
+
+Repo: https://github.com/ikonomov/DiabloX
+
 # Ports
 
 ## Raspberry Pi Sense HAT Renderer
