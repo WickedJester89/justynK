@@ -22,7 +22,7 @@ Repo: https://github.com/SoundChaser83/devilutionx-apocrypha
 
 ## Middle Earth Mod (originally created by Varaya and Khan for Diablo 1.07)
 
-Repo: https://github.com/DakkJaniels/devilutionX/tree/MEMod
+Repo: https://github.com/DakkJaniels/DevilutionX-MiddleEarthMod
 
 ## DiabloX (increased challenge and rebalancing)
 
